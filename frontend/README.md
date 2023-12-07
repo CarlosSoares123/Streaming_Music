@@ -1,27 +1,62 @@
-# React + TypeScript + Vite
+# Soares Streaming - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Visão Geral
+Este é o frontend do aplicativo Music Streaming, uma aplicação React desenvolvida com Vite e TypeScript para integração com o backend de streaming de música.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**
+- **Typescript**
+- **Vite**
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Pré-requisitos
+Certifique-se de ter o Node.js e o npm instalados em seu sistema.
 
-- Configure the top-level `parserOptions` property like this:
+## Instalação
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+1. Clone o repositório:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+`
+https://github.com/CarlosSoares123/Streaming_Music.git
+cd frontend
+`
+
+2. Instale as dependências:
+
+`
+npm install
+`
+
+
+## Uso
+Execute o aplicativo:
+
+`
+npm run dev
+`
+
+
+## Funcionalidades Principais
+
+### Login
+A página de login permite que os usuários autentiquem-se na aplicação.
+
+### Registro
+A página de registro permite que os usuários criem novas contas.
+
+### Verificação de Token
+A página de verificação de token é utilizada para confirmar a autenticidade do token e redirecionar para a página inicial.
+
+
+### Home
+A página inicial exibe conteúdo personalizado para usuários autenticados.
+
+### Upload
+A página de upload permite que os usuários carreguem novas músicas para o sistema.
+
+### MyMusic
+A página "Minhas Músicas" lista as músicas pertencentes ao usuário autenticado e permite a exclusão.
+
+### Reprodução de Áudio
+O componente PlayAudio proporciona uma experiência de reprodução de áudio com controles básicos.

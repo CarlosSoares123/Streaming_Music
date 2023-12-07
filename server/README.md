@@ -55,7 +55,8 @@ Siga as etapas abaixo para iniciar o projeto em sua máquina local:
 1. Clone o repositório:
 
 `
-git clone https://github.com/seu-usuario/seu-projeto.git
+  https://github.com/CarlosSoares123/Streaming_Music.git
+  cd server
 `
 
 2. Navegue até o diretório do projeto:
