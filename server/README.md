@@ -96,4 +96,4 @@ npx sequelize-cli db:migrate
 npm start
 `
 
-O sistema estará disponível em http://localhost:4000 por padrão.
+O sistema estará disponível em http://localhost:4000 por padrão....
