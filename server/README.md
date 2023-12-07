@@ -1,5 +1,4 @@
-# Soares Streaming - Frontend
-
+# Soares Streaming Backend
 ## Visão Geral
 O Soares Streaming é uma aplicação para streaming de músicas, com funcionalidades de autenticação de usuários, upload de músicas e listagem personalizada de músicas por usuário.
 
