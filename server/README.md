@@ -67,7 +67,7 @@ Siga as etapas abaixo para iniciar o projeto em sua máquina local:
 3. Instale as dependências:
 
 `
-npm run dev
+npm install
 `
 
 4. Crie um arquivo .env na raiz do projeto e adicione as variáveis de ambiente necessárias, como chaves de API, configurações de banco de dados e segredos JWT. Certifique-se de incluir as seguintes variáveis para configurar a conexão com o banco de dados:
@@ -93,7 +93,7 @@ npx sequelize-cli db:migrate
 6. Inicie o servidor:
 
 `
-npm start
+npm run dev
 `
 
 O sistema estará disponível em http://localhost:4000 por padrão....
