@@ -61,13 +61,13 @@ Siga as etapas abaixo para iniciar o projeto em sua máquina local:
 2. Navegue até o diretório do projeto:
 
   `
-  cd seu-projeto
+  cd server
   `
 
 3. Instale as dependências:
 
 `
-npm install
+npm run dev
 `
 
 4. Crie um arquivo .env na raiz do projeto e adicione as variáveis de ambiente necessárias, como chaves de API, configurações de banco de dados e segredos JWT. Certifique-se de incluir as seguintes variáveis para configurar a conexão com o banco de dados:
